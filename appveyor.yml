@@ -12,8 +12,8 @@
   
   build_script:
     - choco pack
-    - choco install SIM -s '%cd%' -f
-    - choco uninstall SIM
+    - choco install sim -s '%cd%' -f
+    - choco uninstall sim
   
   before_deploy:
     - ps: Get-ChildItem .\*.nupkg | % { Push-AppveyorArtifact $_.FullName -FileName $_.Name }
@@ -45,8 +45,8 @@
   
   build_script:
     - choco pack
-    - choco install SIM -s '%cd%' -f
-    - choco uninstall SIM
+    - choco install sim -s '%cd%' -f
+    - choco uninstall sim
   
   artifacts:
     - path: '*.nupkg'
