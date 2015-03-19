@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>SIM</id>
+    <title>Sitecore Instance Manager</title>
+    <version>1.3.8</version>
+    <authors>Line 6</authors>
+    <owners>RaYell</owners>
+    <summary>Sitecore Instance Manager</summary>
+    <description>SIM is a key tool for managing the park of Sitecore instances. You can install, locate, maintain, reinstall or delete Sitecore products. It has API and plugin engine so you can extend it for any your need.</description>
+    <projectUrl>https://marketplace.sitecore.net/Modules/Sitecore_Instance_Manager.aspx</projectUrl>
+    <tags>sitecore instance manager</tags>
+    <copyright></copyright>
+    <licenseUrl>https://marketplace.sitecore.net/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://bitbucket-assetroot.s3.amazonaws.com/c/photos/2013/Mar/29/sim-logo-1160212616-3_avatar.png</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
