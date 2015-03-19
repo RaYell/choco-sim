@@ -3,11 +3,11 @@
 
 # Installation
 ```posh
-choco install SIM
+choco install sim
 ```
 
 # Uninstallation
 
 ```posh
-choco uninstall SIM
+choco uninstall sim
 ```
