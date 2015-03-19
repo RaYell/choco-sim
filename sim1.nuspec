@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-    <id>SIM</id>
+    <id>sim</id>
     <title>Sitecore Instance Manager</title>
     <version>1.3.8</version>
     <authors>Line 6</authors>
