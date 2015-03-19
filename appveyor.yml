@@ -1,0 +1,58 @@
+# master branch configuration
+-
+  branches:
+    only:
+      - master
+  
+  skip_tags: true
+  skip_commits:
+    message: /Update.*\.md/
+    
+  version: 1.3.8.{build}
+  
+  build_script:
+    - choco pack
+    - choco install SIM -s '%cd%' -f
+    - choco uninstall SIM
+  
+  before_deploy:
+    - ps: Get-ChildItem .\*.nupkg | % { Push-AppveyorArtifact $_.FullName -FileName $_.Name }
+    
+  artifacts:
+    - path: '*.nupkg'
+    
+  deploy:
+    - provider: NuGet
+      server: http://chocolatey.org/
+      api_key:
+        secure: e6mHuTsjw+AZ+2LfTOeosjg1aNJGwhVpJ92eSVWA6wtooaNJN2NQfvQVIocQ+etC
+    - provider: GitHub
+      release: 1.3.8
+      auth_token:
+        secure: r+IxpBcxWvxwGdiNvsHFEWa0wa8WPzw3uRi+1/ObwPoGS16bzG9FObtJIsFdmj0L
+      
+# develop, feature & bugfix branches
+-
+  branches:
+    only:
+      - develop
+  
+  skip_tags: true
+  skip_commits:
+    message: /Update.*\.md/
+  
+  version: 1.3.8.{build}
+  
+  build_script:
+    - choco pack
+    - choco install SIM -s '%cd%' -f
+    - choco uninstall SIM
+  
+  artifacts:
+    - path: '*.nupkg'
+  
+  deploy:
+    - provider: GitHub
+      release: $(APPVEYOR_BUILD_VERSION)-preview
+      auth_token:
+        secure: r+IxpBcxWvxwGdiNvsHFEWa0wa8WPzw3uRi+1/ObwPoGS16bzG9FObtJIsFdmj0L
