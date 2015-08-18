@@ -9,80 +9,80 @@
 		<owners>RaYell</owners>
 		<summary>Sitecore Instance Manager</summary>
 		<description>
-			<p>SIM is a key tool for managing the park of Sitecore instances. You can install, locate, maintain, reinstall or delete Sitecore products. It has API and plugin engine so you can extend it for any your need.</p>
+			&lt;p&gt;SIM is a key tool for managing the park of Sitecore instances. You can install, locate, maintain, reinstall or delete Sitecore products. It has API and plugin engine so you can extend it for any your need.&lt;/p&gt;
 
-			<h1>Features</h1>
-			<h4>Global Features</h4>
-			<ol>
-				<li>
-					<strong>List</strong> Sitecore websites installed locally</li>
-				<li>
-					<strong>Install</strong> new Sitecore standalone product</li>
-				<li>
-					<strong>Install</strong> Sitecore modules and packages</li>
-				<li>
-					<strong>Download</strong> Sitecore CMS and DMS from SDN</li>
-				<li>
-					<strong>Back up</strong> Sitecore websites, and <strong>Restore</strong> them</li>
-				<li>
-					<strong>Export</strong> Sitecore website and <strong>Import</strong> it on remote computer</li>
-				<li>
-					<strong>Delete</strong> Sitecore websites</li>
-				<li>
-					<strong>Reinstall</strong> Sitecore website</li>
-			</ol>
+			&lt;h1&gt;Features&lt;/h1&gt;
+			&lt;h4&gt;Global Features&lt;/h4&gt;
+			&lt;ol&gt;
+				&lt;li&gt;
+					&lt;strong&gt;List&lt;/strong&gt; Sitecore websites installed locally&lt;/li&gt;
+				&lt;li&gt;
+					&lt;strong&gt;Install&lt;/strong&gt; new Sitecore standalone product&lt;/li&gt;
+				&lt;li&gt;
+					&lt;strong&gt;Install&lt;/strong&gt; Sitecore modules and packages&lt;/li&gt;
+				&lt;li&gt;
+					&lt;strong&gt;Download&lt;/strong&gt; Sitecore CMS and DMS from SDN&lt;/li&gt;
+				&lt;li&gt;
+					&lt;strong&gt;Back up&lt;/strong&gt; Sitecore websites, and &lt;strong&gt;Restore&lt;/strong&gt; them&lt;/li&gt;
+				&lt;li&gt;
+					&lt;strong&gt;Export&lt;/strong&gt; Sitecore website and &lt;strong&gt;Import&lt;/strong&gt; it on remote computer&lt;/li&gt;
+				&lt;li&gt;
+					&lt;strong&gt;Delete&lt;/strong&gt; Sitecore websites&lt;/li&gt;
+				&lt;li&gt;
+					&lt;strong&gt;Reinstall&lt;/strong&gt; Sitecore website&lt;/li&gt;
+			&lt;/ol&gt;
 
-			<h4>Open in Browser</h4>
-			<ul>
-				<li>Open website</li>
-				<li>Open Sitecore Client</li>
-				<li>Open Sitecore Client (bypassing security)</li>
-				<li>Open <a href="https://bitbucket.org/sitecoresupport/sitecore-support-toolbox">Support Toolbox</a>
-				</li>
-			</ul>
+			&lt;h4&gt;Open in Browser&lt;/h4&gt;
+			&lt;ul&gt;
+				&lt;li&gt;Open website&lt;/li&gt;
+				&lt;li&gt;Open Sitecore Client&lt;/li&gt;
+				&lt;li&gt;Open Sitecore Client (bypassing security)&lt;/li&gt;
+				&lt;li&gt;Open &lt;a href="https://bitbucket.org/sitecoresupport/sitecore-support-toolbox"&gt;Support Toolbox&lt;/a&gt;
+				&lt;/li&gt;
+			&lt;/ul&gt;
 
-			<h4>Open applications</h4>
-			<ul>
-				<li>Open Website folder</li>
-				<li>Open Visual Studio 2012 project (create project if missing)</li>
-				<li>Open web.config file</li>
-				<li>Open <code>showconfig.xml</code> configuration</li>
-				<li>Open current log file</li>
-				<li>Open entire log files in <a href="http://marketplace.sitecore.net/Modules/Sitecore_Log_Analyzer.aspx">Sitecore Log Analyzer</a>
-				</li>
-			</ul>
+			&lt;h4&gt;Open applications&lt;/h4&gt;
+			&lt;ul&gt;
+				&lt;li&gt;Open Website folder&lt;/li&gt;
+				&lt;li&gt;Open Visual Studio 2012 project (create project if missing)&lt;/li&gt;
+				&lt;li&gt;Open web.config file&lt;/li&gt;
+				&lt;li&gt;Open &lt;code&gt;showconfig.xml&lt;/code&gt; configuration&lt;/li&gt;
+				&lt;li&gt;Open current log file&lt;/li&gt;
+				&lt;li&gt;Open entire log files in &lt;a href="http://marketplace.sitecore.net/Modules/Sitecore_Log_Analyzer.aspx"&gt;Sitecore Log Analyzer&lt;/a&gt;
+				&lt;/li&gt;
+			&lt;/ul&gt;
 
-			<h4>Change website</h4>
-			<ul>
-				<li>Start/Stop App Pool</li>
-				<li>Recycle App Pool</li>
-				<li>Kill <code>w3wp.exe</code> process</li>
-				<li>Change Framework version</li>
-				<li>Change Framework bitness</li>
-			</ul>
+			&lt;h4&gt;Change website&lt;/h4&gt;
+			&lt;ul&gt;
+				&lt;li&gt;Start/Stop App Pool&lt;/li&gt;
+				&lt;li&gt;Recycle App Pool&lt;/li&gt;
+				&lt;li&gt;Kill &lt;code&gt;w3wp.exe&lt;/code&gt; process&lt;/li&gt;
+				&lt;li&gt;Change Framework version&lt;/li&gt;
+				&lt;li&gt;Change Framework bitness&lt;/li&gt;
+			&lt;/ul&gt;
 
-			<h4>Extra features</h4>
-			<ul>
-				<li>Edit <code>etc\hosts</code> file</li>
-				<li>Batch operations with SQL databases</li>
-				<li>Predefined configurations (Enable MVC, Scaling ...)</li>
-			</ul>
+			&lt;h4&gt;Extra features&lt;/h4&gt;
+			&lt;ul&gt;
+				&lt;li&gt;Edit &lt;code&gt;etc\hosts&lt;/code&gt; file&lt;/li&gt;
+				&lt;li&gt;Batch operations with SQL databases&lt;/li&gt;
+				&lt;li&gt;Predefined configurations (Enable MVC, Scaling ...)&lt;/li&gt;
+			&lt;/ul&gt;
 
-			<h3>Supported Products</h3>
-			<ul>
-				<li>Sitecore CMS 6, 7 and 7.5 / 8</li>
-				<li>Sitecore Intranet 3.x</li>
-				<li>Sitecore Foundry 3.x and 4.x (in a form of Sitecore package)</li>
-				<li>Demo Solutions (Nicam, Jetstream)</li>
-				<li>All Sitecore modules</li>
-			</ul>
+			&lt;h3&gt;Supported Products&lt;/h3&gt;
+			&lt;ul&gt;
+				&lt;li&gt;Sitecore CMS 6, 7 and 7.5 / 8&lt;/li&gt;
+				&lt;li&gt;Sitecore Intranet 3.x&lt;/li&gt;
+				&lt;li&gt;Sitecore Foundry 3.x and 4.x (in a form of Sitecore package)&lt;/li&gt;
+				&lt;li&gt;Demo Solutions (Nicam, Jetstream)&lt;/li&gt;
+				&lt;li&gt;All Sitecore modules&lt;/li&gt;
+			&lt;/ul&gt;
 
-			<p>Some of Sitecore modules have special support for initial configuration:</p>
-			<ul>
-				<li>Active Directory</li>
-				<li>Web Forms for Marketers</li>
-				<li>E-mail Campaign Manager</li>
-			</ul>
+			&lt;p&gt;Some of Sitecore modules have special support for initial configuration:&lt;/p&gt;
+			&lt;ul&gt;
+				&lt;li&gt;Active Directory&lt;/li&gt;
+				&lt;li&gt;Web Forms for Marketers&lt;/li&gt;
+				&lt;li&gt;E-mail Campaign Manager&lt;/li&gt;
+			&lt;/ul&gt;
 		</description>
 		<projectUrl>https://marketplace.sitecore.net/Modules/Sitecore_Instance_Manager.aspx</projectUrl>
 		<tags>sitecore instance manager</tags>
