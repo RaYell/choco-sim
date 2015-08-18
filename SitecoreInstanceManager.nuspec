@@ -15,21 +15,21 @@
 			<h4>Global Features</h4>
 			<ol>
 				<li>
-					<strong>List</strong>&nbsp;Sitecore websites installed locally</li>
+					<strong>List</strong> Sitecore websites installed locally</li>
 				<li>
-					<strong>Install</strong>&nbsp;new Sitecore standalone product</li>
+					<strong>Install</strong> new Sitecore standalone product</li>
 				<li>
-					<strong>Install</strong>&nbsp;Sitecore modules and packages</li>
+					<strong>Install</strong> Sitecore modules and packages</li>
 				<li>
-					<strong>Download</strong>&nbsp;Sitecore CMS and DMS from SDN</li>
+					<strong>Download</strong> Sitecore CMS and DMS from SDN</li>
 				<li>
-					<strong>Back up</strong>&nbsp;Sitecore websites, and&nbsp;<strong>Restore</strong>&nbsp;them</li>
+					<strong>Back up</strong> Sitecore websites, and <strong>Restore</strong> them</li>
 				<li>
-					<strong>Export</strong>&nbsp;Sitecore website and&nbsp;<strong>Import</strong>&nbsp;it on remote computer</li>
+					<strong>Export</strong> Sitecore website and <strong>Import</strong> it on remote computer</li>
 				<li>
-					<strong>Delete</strong>&nbsp;Sitecore websites</li>
+					<strong>Delete</strong> Sitecore websites</li>
 				<li>
-					<strong>Reinstall</strong>&nbsp;Sitecore website</li>
+					<strong>Reinstall</strong> Sitecore website</li>
 			</ol>
 
 			<h4>Open in Browser</h4>
@@ -37,7 +37,7 @@
 				<li>Open website</li>
 				<li>Open Sitecore Client</li>
 				<li>Open Sitecore Client (bypassing security)</li>
-				<li>Open&nbsp;<a href="https://bitbucket.org/sitecoresupport/sitecore-support-toolbox">Support Toolbox</a>
+				<li>Open <a href="https://bitbucket.org/sitecoresupport/sitecore-support-toolbox">Support Toolbox</a>
 				</li>
 			</ul>
 
@@ -46,9 +46,9 @@
 				<li>Open Website folder</li>
 				<li>Open Visual Studio 2012 project (create project if missing)</li>
 				<li>Open web.config file</li>
-				<li>Open&nbsp;<code>showconfig.xml</code>&nbsp;configuration</li>
+				<li>Open <code>showconfig.xml</code> configuration</li>
 				<li>Open current log file</li>
-				<li>Open entire log files in&nbsp;<a href="http://marketplace.sitecore.net/Modules/Sitecore_Log_Analyzer.aspx">Sitecore Log Analyzer</a>
+				<li>Open entire log files in <a href="http://marketplace.sitecore.net/Modules/Sitecore_Log_Analyzer.aspx">Sitecore Log Analyzer</a>
 				</li>
 			</ul>
 
@@ -56,14 +56,14 @@
 			<ul>
 				<li>Start/Stop App Pool</li>
 				<li>Recycle App Pool</li>
-				<li>Kill&nbsp;<code>w3wp.exe</code>&nbsp;process</li>
+				<li>Kill <code>w3wp.exe</code> process</li>
 				<li>Change Framework version</li>
 				<li>Change Framework bitness</li>
 			</ul>
 
 			<h4>Extra features</h4>
 			<ul>
-				<li>Edit&nbsp;<code>etc\hosts</code>&nbsp;file</li>
+				<li>Edit <code>etc\hosts</code> file</li>
 				<li>Batch operations with SQL databases</li>
 				<li>Predefined configurations (Enable MVC, Scaling ...)</li>
 			</ul>
@@ -72,7 +72,7 @@
 			<ul>
 				<li>Sitecore CMS 6, 7 and 7.5 / 8</li>
 				<li>Sitecore Intranet 3.x</li>
-				<li>Sitecore Foundry 3.x&nbsp;and 4.x (in a form of Sitecore package)</li>
+				<li>Sitecore Foundry 3.x and 4.x (in a form of Sitecore package)</li>
 				<li>Demo Solutions (Nicam, Jetstream)</li>
 				<li>All Sitecore modules</li>
 			</ul>
