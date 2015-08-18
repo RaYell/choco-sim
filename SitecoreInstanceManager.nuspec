@@ -4,15 +4,30 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>sim</id>
     <title>Sitecore Instance Manager</title>
-    <version>1.3.8</version>
-    <authors>Line 6</authors>
+    <version>1.4</version>
+    <authors>Sitecore</authors>
     <owners>RaYell</owners>
     <summary>Sitecore Instance Manager</summary>
-    <description>SIM is a key tool for managing the park of Sitecore instances. You can install, locate, maintain, reinstall or delete Sitecore products. It has API and plugin engine so you can extend it for any your need.</description>
+    <description>
+# Sitecore Instance Manager
+SIM is a key tool for managing the park of Sitecore instances. 
+You can install, locate, maintain, reinstall or delete Sitecore products. 
+It has API and plugin engine so you can extend it for any your need.
+
+# Global Features
+* List Sitecore websites installed locally
+* Install new Sitecore standalone product
+* Install Sitecore modules and packages
+* Download Sitecore CMS and DMS from SDN
+* Back up Sitecore websites, and Restore them
+* Export Sitecore website and Import it on remote computer
+* Delete Sitecore websites
+* Reinstall Sitecore website
+    </description>
     <projectUrl>https://marketplace.sitecore.net/Modules/Sitecore_Instance_Manager.aspx</projectUrl>
     <tags>sitecore instance manager</tags>
     <copyright></copyright>
-    <licenseUrl>https://marketplace.sitecore.net/</licenseUrl>
+    <licenseUrl>https://profile.sitecore.net/en/Materials_Limited_License_Agreement.aspx</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/RaYell/choco-sim/7160915ce9c6f41eedbddebb532ba8582534c50a/icon.png</iconUrl>
     <releaseNotes></releaseNotes>
