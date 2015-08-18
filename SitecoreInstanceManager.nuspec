@@ -9,20 +9,70 @@
     <owners>RaYell</owners>
     <summary>Sitecore Instance Manager</summary>
     <description>
-# Sitecore Instance Manager
-SIM is a key tool for managing the park of Sitecore instances. 
-You can install, locate, maintain, reinstall or delete Sitecore products. 
-It has API and plugin engine so you can extend it for any your need.
+<p>SIM is a key tool for managing the park of Sitecore instances. You can install, locate, maintain, reinstall or delete Sitecore products. It has API and plugin engine so you can extend it for any your need.</p>
 
-# Global Features
-* List Sitecore websites installed locally
-* Install new Sitecore standalone product
-* Install Sitecore modules and packages
-* Download Sitecore CMS and DMS from SDN
-* Back up Sitecore websites, and Restore them
-* Export Sitecore website and Import it on remote computer
-* Delete Sitecore websites
-* Reinstall Sitecore website
+<h1>Features</h1>
+<h4>Global Features</h4>
+<ol>
+    <li><strong>List</strong>&nbsp;Sitecore websites installed locally</li>
+    <li><strong>Install</strong>&nbsp;new Sitecore standalone product</li>
+    <li><strong>Install</strong>&nbsp;Sitecore modules and packages</li>
+    <li><strong>Download</strong>&nbsp;Sitecore CMS and DMS from SDN</li>
+    <li><strong>Back up</strong>&nbsp;Sitecore websites, and&nbsp;<strong>Restore</strong>&nbsp;them</li>
+    <li><strong>Export</strong>&nbsp;Sitecore website and&nbsp;<strong>Import</strong>&nbsp;it on remote computer</li>
+    <li><strong>Delete</strong>&nbsp;Sitecore websites</li>
+    <li><strong>Reinstall</strong>&nbsp;Sitecore website</li>
+</ol>
+
+<h4>Open in Browser</h4>
+<ul>
+    <li>Open website</li>
+    <li>Open Sitecore Client</li>
+    <li>Open Sitecore Client (bypassing security)</li>
+    <li>Open&nbsp;<a href="https://bitbucket.org/sitecoresupport/sitecore-support-toolbox">Support Toolbox</a></li>
+</ul>
+
+<h4>Open applications</h4>
+<ul>
+    <li>Open Website folder</li>
+    <li>Open Visual Studio 2012 project (create project if missing)</li>
+    <li>Open web.config file</li>
+    <li>Open&nbsp;<code>showconfig.xml</code>&nbsp;configuration</li>
+    <li>Open current log file</li>
+    <li>Open entire log files in&nbsp;<a href="http://marketplace.sitecore.net/Modules/Sitecore_Log_Analyzer.aspx">Sitecore Log Analyzer</a></li>
+</ul>
+
+<h4>Change website</h4>
+<ul>
+    <li>Start/Stop App Pool</li>
+    <li>Recycle App Pool</li>
+    <li>Kill&nbsp;<code>w3wp.exe</code>&nbsp;process</li>
+    <li>Change Framework version</li>
+    <li>Change Framework bitness</li>
+</ul>
+
+<h4>Extra features</h4>
+<ul>
+    <li>Edit&nbsp;<code>etc\hosts</code>&nbsp;file</li>
+    <li>Batch operations with SQL databases</li>
+    <li>Predefined configurations (Enable MVC, Scaling ...)</li>
+</ul>
+
+<h3>Supported Products</h3>
+<ul>
+    <li>Sitecore CMS 6, 7 and 7.5 / 8</li>
+    <li>Sitecore Intranet 3.x</li>
+    <li>Sitecore Foundry 3.x&nbsp;and 4.x (in a form of Sitecore package)</li>
+    <li>Demo Solutions (Nicam, Jetstream)</li>
+    <li>All Sitecore modules</li>
+</ul>
+
+<p>Some of Sitecore modules have special support for initial configuration:</p>
+<ul>
+    <li>Active Directory</li>
+    <li>Web Forms for Marketers</li>
+    <li>E-mail Campaign Manager</li>
+</ul>
     </description>
     <projectUrl>https://marketplace.sitecore.net/Modules/Sitecore_Instance_Manager.aspx</projectUrl>
     <tags>sitecore instance manager</tags>
