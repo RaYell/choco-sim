@@ -9,80 +9,65 @@
 		<owners>RaYell</owners>
 		<summary>Sitecore Instance Manager</summary>
 		<description>
-			&lt;p&gt;SIM is a key tool for managing the park of Sitecore instances. You can install, locate, maintain, reinstall or delete Sitecore products. It has API and plugin engine so you can extend it for any your need.&lt;/p&gt;
+### Sitecore Instance Manager
 
-			&lt;h1&gt;Features&lt;/h1&gt;
-			&lt;h4&gt;Global Features&lt;/h4&gt;
-			&lt;ol&gt;
-				&lt;li&gt;
-					&lt;strong&gt;List&lt;/strong&gt; Sitecore websites installed locally&lt;/li&gt;
-				&lt;li&gt;
-					&lt;strong&gt;Install&lt;/strong&gt; new Sitecore standalone product&lt;/li&gt;
-				&lt;li&gt;
-					&lt;strong&gt;Install&lt;/strong&gt; Sitecore modules and packages&lt;/li&gt;
-				&lt;li&gt;
-					&lt;strong&gt;Download&lt;/strong&gt; Sitecore CMS and DMS from SDN&lt;/li&gt;
-				&lt;li&gt;
-					&lt;strong&gt;Back up&lt;/strong&gt; Sitecore websites, and &lt;strong&gt;Restore&lt;/strong&gt; them&lt;/li&gt;
-				&lt;li&gt;
-					&lt;strong&gt;Export&lt;/strong&gt; Sitecore website and &lt;strong&gt;Import&lt;/strong&gt; it on remote computer&lt;/li&gt;
-				&lt;li&gt;
-					&lt;strong&gt;Delete&lt;/strong&gt; Sitecore websites&lt;/li&gt;
-				&lt;li&gt;
-					&lt;strong&gt;Reinstall&lt;/strong&gt; Sitecore website&lt;/li&gt;
-			&lt;/ol&gt;
+SIM is a key tool for managing the park of Sitecore instances. You can install, locate, maintain, reinstall or delete Sitecore products. It has API and plugin engine so you can extend it for any your need.
 
-			&lt;h4&gt;Open in Browser&lt;/h4&gt;
-			&lt;ul&gt;
-				&lt;li&gt;Open website&lt;/li&gt;
-				&lt;li&gt;Open Sitecore Client&lt;/li&gt;
-				&lt;li&gt;Open Sitecore Client (bypassing security)&lt;/li&gt;
-				&lt;li&gt;Open &lt;a href="https://bitbucket.org/sitecoresupport/sitecore-support-toolbox"&gt;Support Toolbox&lt;/a&gt;
-				&lt;/li&gt;
-			&lt;/ul&gt;
+### Global Features
 
-			&lt;h4&gt;Open applications&lt;/h4&gt;
-			&lt;ul&gt;
-				&lt;li&gt;Open Website folder&lt;/li&gt;
-				&lt;li&gt;Open Visual Studio 2012 project (create project if missing)&lt;/li&gt;
-				&lt;li&gt;Open web.config file&lt;/li&gt;
-				&lt;li&gt;Open &lt;code&gt;showconfig.xml&lt;/code&gt; configuration&lt;/li&gt;
-				&lt;li&gt;Open current log file&lt;/li&gt;
-				&lt;li&gt;Open entire log files in &lt;a href="http://marketplace.sitecore.net/Modules/Sitecore_Log_Analyzer.aspx"&gt;Sitecore Log Analyzer&lt;/a&gt;
-				&lt;/li&gt;
-			&lt;/ul&gt;
+* List Sitecore websites installed locally
+* Install new Sitecore standalone product
+* Install Sitecore modules and packages
+* Download Sitecore CMS and DMS from SDN
+* Back up Sitecore websites, and Restore them
+* Export Sitecore website and Import it on remote computer
+* Delete Sitecore websites
+* Reinstall Sitecore website
 
-			&lt;h4&gt;Change website&lt;/h4&gt;
-			&lt;ul&gt;
-				&lt;li&gt;Start/Stop App Pool&lt;/li&gt;
-				&lt;li&gt;Recycle App Pool&lt;/li&gt;
-				&lt;li&gt;Kill &lt;code&gt;w3wp.exe&lt;/code&gt; process&lt;/li&gt;
-				&lt;li&gt;Change Framework version&lt;/li&gt;
-				&lt;li&gt;Change Framework bitness&lt;/li&gt;
-			&lt;/ul&gt;
+### Open in Browser
 
-			&lt;h4&gt;Extra features&lt;/h4&gt;
-			&lt;ul&gt;
-				&lt;li&gt;Edit &lt;code&gt;etc\hosts&lt;/code&gt; file&lt;/li&gt;
-				&lt;li&gt;Batch operations with SQL databases&lt;/li&gt;
-				&lt;li&gt;Predefined configurations (Enable MVC, Scaling ...)&lt;/li&gt;
-			&lt;/ul&gt;
+* Open website
+* Open Sitecore Client
+* Open Sitecore Client (bypassing security)
+* Open [Support Toolbox](https://bitbucket.org/sitecoresupport/sitecore-support-toolbox)
 
-			&lt;h3&gt;Supported Products&lt;/h3&gt;
-			&lt;ul&gt;
-				&lt;li&gt;Sitecore CMS 6, 7 and 7.5 / 8&lt;/li&gt;
-				&lt;li&gt;Sitecore Intranet 3.x&lt;/li&gt;
-				&lt;li&gt;Sitecore Foundry 3.x and 4.x (in a form of Sitecore package)&lt;/li&gt;
-				&lt;li&gt;Demo Solutions (Nicam, Jetstream)&lt;/li&gt;
-				&lt;li&gt;All Sitecore modules&lt;/li&gt;
-			&lt;/ul&gt;
+### Open applications
 
-			&lt;p&gt;Some of Sitecore modules have special support for initial configuration:&lt;/p&gt;
-			&lt;ul&gt;
-				&lt;li&gt;Active Directory&lt;/li&gt;
-				&lt;li&gt;Web Forms for Marketers&lt;/li&gt;
-				&lt;li&gt;E-mail Campaign Manager&lt;/li&gt;
-			&lt;/ul&gt;
+* Open Website folder
+* Open Visual Studio 2012 project (create project if missing)
+* Open web.config file
+* Open `showconfig.xml` configuration
+* Open current log file
+* Open entire log files in [Sitecore Log Analyzer](http://marketplace.sitecore.net/Modules/Sitecore_Log_Analyzer.aspx)
+
+### Change website
+
+Start/Stop App Pool
+Recycle App Pool
+Kill `w3wp.exe` process
+Change Framework version
+Change Framework bitness
+
+
+### Extra features
+
+* Edit `etc\hosts` file
+* Batch operations with SQL databases
+* Predefined configurations (Enable MVC, Scaling ...)
+
+### Supported Products
+
+* Sitecore CMS 6, 7 and 7.5 / 8
+* Sitecore Intranet 3.x
+* Sitecore Foundry 3.x and 4.x (in a form of Sitecore package)
+* Demo Solutions (Nicam, Jetstream)
+* All Sitecore modules
+
+### Some of Sitecore modules have special support for initial configuration:
+
+* Active Directory
+* Web Forms for Marketers
+* E-mail Campaign Manager
 		</description>
 		<projectUrl>https://marketplace.sitecore.net/Modules/Sitecore_Instance_Manager.aspx</projectUrl>
 		<tags>sitecore instance manager</tags>
