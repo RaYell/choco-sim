@@ -20,7 +20,7 @@
     
   deploy:
     - provider: NuGet
-      server: http://chocolatey.org/
+      server: https://chocolatey.org/
       api_key:
         secure: e6mHuTsjw+AZ+2LfTOeosjg1aNJGwhVpJ92eSVWA6wtooaNJN2NQfvQVIocQ+etC
     - provider: GitHub
