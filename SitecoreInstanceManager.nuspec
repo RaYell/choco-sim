@@ -4,7 +4,7 @@
 		<!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
 		<id>sim</id>
 		<title>Sitecore Instance Manager</title>
-		<version>1.4</version>
+		<version>1.4.1</version>
 		<authors>Sitecore</authors>
 		<owners>RaYell</owners>
 		<summary>Sitecore Instance Manager</summary>
@@ -76,6 +76,7 @@ Change Framework bitness
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<iconUrl>https://cdn.rawgit.com/RaYell/choco-sim/7160915ce9c6f41eedbddebb532ba8582534c50a/icon.png</iconUrl>
 		<releaseNotes/>
+		<packageSourceUrl>https://github.com/RaYell/choco-sim</packageSourceUrl>
 	</metadata>
 	<files>
 		<file src="tools\**" target="tools" />
