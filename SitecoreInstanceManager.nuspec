@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-	<metadata>
-		<!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-		<id>sim</id>
-		<title>Sitecore Instance Manager</title>
-		<version>1.4.1</version>
-		<authors>Sitecore</authors>
-		<owners>RaYell</owners>
-		<summary>Sitecore Instance Manager</summary>
-		<description>
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>sim</id>
+    <title>Sitecore Instance Manager</title>
+    <version>1.4.1</version>
+    <authors>Sitecore</authors>
+    <owners>RaYell</owners>
+    <summary>Sitecore Instance Manager</summary>
+    <description>
 ### Sitecore Instance Manager
 
 SIM is a key tool for managing the park of Sitecore instances. You can install, locate, maintain, reinstall or delete Sitecore products. It has API and plugin engine so you can extend it for any your need.
@@ -68,17 +68,17 @@ Change Framework bitness
 * Active Directory
 * Web Forms for Marketers
 * E-mail Campaign Manager
-		</description>
-		<projectUrl>https://marketplace.sitecore.net/Modules/Sitecore_Instance_Manager.aspx</projectUrl>
-		<tags>sitecore instance manager</tags>
-		<copyright/>
-		<licenseUrl>https://profile.sitecore.net/en/Materials_Limited_License_Agreement.aspx</licenseUrl>
-		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<iconUrl>https://cdn.rawgit.com/RaYell/choco-sim/7160915ce9c6f41eedbddebb532ba8582534c50a/icon.png</iconUrl>
-		<releaseNotes/>
-		<packageSourceUrl>https://github.com/RaYell/choco-sim</packageSourceUrl>
-	</metadata>
-	<files>
-		<file src="tools\**" target="tools" />
-	</files>
+    </description>
+    <projectUrl>https://marketplace.sitecore.net/Modules/Sitecore_Instance_Manager.aspx</projectUrl>
+    <tags>sitecore instance manager</tags>
+    <copyright/>
+    <licenseUrl>https://profile.sitecore.net/en/Materials_Limited_License_Agreement.aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/RaYell/choco-sim/7160915ce9c6f41eedbddebb532ba8582534c50a/icon.png</iconUrl>
+    <releaseNotes/>
+    <packageSourceUrl>https://github.com/RaYell/choco-sim</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
