@@ -77,6 +77,7 @@ Change Framework bitness
     <iconUrl>https://cdn.rawgit.com/RaYell/choco-sim/7160915ce9c6f41eedbddebb532ba8582534c50a/icon.png</iconUrl>
     <releaseNotes/>
     <packageSourceUrl>https://github.com/RaYell/choco-sim</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/RaYell/choco-sim/issues</bugTrackerUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
